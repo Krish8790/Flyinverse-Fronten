@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Results</title>
+</head>
+<body>
+  <div class="search-wrapper">
+    <form class="search-form" onsubmit="return handleSubmit(event)">
+      <input type="text" id="searchInput" placeholder="Search destinations, flights, tourism..." autocomplete="off" oninput="handleInput(event)" />
+      <button type="submit">Search</button> </form> <ul id="suggestions" class="suggestions-list">
+      </ul>
+    </div>
+</body>
+</html>
