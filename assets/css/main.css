@@ -3894,3 +3894,16 @@ body {
 .contact-form-box button:hover {
   background-color: #b9982f;
 }
+/*Football*/
+.process-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.process-icon {
+  width: 250px; /* You can change to 72px or 80px if you want even larger */
+  height: auto;
+  margin-bottom: 0.5em;
+}
